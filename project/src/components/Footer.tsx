@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="ml-2 text-xl font-bold">PremiumAuto</span>
             </div>
             <p className="mt-2 text-sm text-gray-300">
-              Your trusted partner for premium vehicles and exceptional service since 2005.
+              Your trusted partner for premium vehicles and exceptional service since 2020.
             </p>
           </div>
           
