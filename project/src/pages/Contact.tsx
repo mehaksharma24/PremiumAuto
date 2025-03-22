@@ -83,7 +83,7 @@ const Contact = () => {
                 <Phone className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
-              <p className="text-gray-600">(555) 123-4567</p>
+              <p className="text-gray-600">(647) 975-4242</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -91,7 +91,7 @@ const Contact = () => {
                 <Mail className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
-              <p className="text-gray-600">info@premiumauto.com</p>
+              <p className="text-gray-600">Stallionscan@gmail.com</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -99,7 +99,7 @@ const Contact = () => {
                 <MapPin className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Location</h3>
-              <p className="text-gray-600">123 Auto Drive, Car City</p>
+              <p className="text-gray-600">36 Parklawn rd, Etobicoke</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -228,7 +228,7 @@ const Contact = () => {
             
             {/* Map and Additional Info */}
             <div>
-              <div className="bg-white p-4 rounded-lg shadow-md mb-8">
+              {/* <div className="bg-white p-4 rounded-lg shadow-md mb-8">
               <a href="https://www.google.com/maps?q=1600+Amphitheatre+Parkway,+Mountain+View,+CA"></a>
     
                 <div className="bg-gray-200 h-[300px] rounded-md flex items-center justify-center">
@@ -237,7 +237,7 @@ const Contact = () => {
     
 
                 </div>
-              </div>
+              </div> */}
               
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Visit Our Dealership</h3>
@@ -249,8 +249,8 @@ const Contact = () => {
                     <MapPin className="h-5 w-5 text-blue-600 mr-3 mt-1" />
                     <div>
                       <p className="font-medium">PremiumAuto Dealership</p>
-                      <p className="text-gray-600">123 Auto Drive</p>
-                      <p className="text-gray-600">Car City, State 12345</p>
+                      <p className="text-gray-600">36 Parklawn rd</p>
+                      <p className="text-gray-600">Etobicoke, ON M8V 0E5</p>
                     </div>
                   </div>
                   <div className="flex items-start">

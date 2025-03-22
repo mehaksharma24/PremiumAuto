@@ -1,6 +1,5 @@
-import React from 'react';
+import { Car, Facebook, Instagram, Mail, MapPin, Phone, Twitter } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { Car, Phone, Mail, MapPin, Facebook, Twitter, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -31,15 +30,15 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-blue-500" />
-                <span>(555) 123-4567</span>
+                <span>(647) 975-4242</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-blue-500" />
-                <span>info@premiumauto.com</span>
+                <span>Stallionscan@gmail.com</span>
               </li>
               <li className="flex items-center">
                 <MapPin className="h-5 w-5 mr-2 text-blue-500" />
-                <span>123 Auto Drive, Car City</span>
+                <span>36 Parklawn rd, Etobicoke</span>
               </li>
             </ul>
           </div>
