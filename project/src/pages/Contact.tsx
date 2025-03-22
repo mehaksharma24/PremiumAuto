@@ -99,7 +99,7 @@ const Contact = () => {
                 <MapPin className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Location</h3>
-              <p className="text-gray-600">36 Parklawn rd, Etobicoke</p>
+              <p className="text-gray-600">36 Parklawn rd, Etobicoke M8V 0E5</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -249,7 +249,7 @@ const Contact = () => {
                     <MapPin className="h-5 w-5 text-blue-600 mr-3 mt-1" />
                     <div>
                       <p className="font-medium">PremiumAuto Dealership</p>
-                      <p className="text-gray-600">36 Parklawn Rd M8V 0E5</p>
+                      <p className="text-gray-600">36 Parklawn Rd</p>
                       <p className="text-gray-600">Etobicoke, ON M8V 0E5</p>
                     </div>
                   </div>
