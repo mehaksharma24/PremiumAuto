@@ -249,7 +249,7 @@ const Contact = () => {
                     <MapPin className="h-5 w-5 text-blue-600 mr-3 mt-1" />
                     <div>
                       <p className="font-medium">PremiumAuto Dealership</p>
-                      <p className="text-gray-600">36 Parklawn rd</p>
+                      <p className="text-gray-600">36 Parklawn Rd M8V 0E5</p>
                       <p className="text-gray-600">Etobicoke, ON M8V 0E5</p>
                     </div>
                   </div>
