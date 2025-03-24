@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Car, Menu, X } from 'lucide-react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,7 +24,7 @@ const Navbar = () => {
               <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-800">Home</Link>
               <Link to="/services" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-800">Services</Link>
               <Link to="/contact" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-800">Contact</Link>
-              <Link to="/admin" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-800">Admin</Link>
+             
             </div>
           </div>
           <div className="md:hidden">
